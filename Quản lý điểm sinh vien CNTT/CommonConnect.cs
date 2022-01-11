@@ -29,7 +29,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         SqlDataAdapter sqlda;
         SqlCommand sqlcom;
         SqlConnection sqlcon;
-        string strconnect = "Data Source=DESKTOP-C3TG483\\SQLEXPRESS;Initial Catalog=QuanLyDiem;Integrated Security=True";
+        string strconnect = "Data Source=TIEUBACHDUONG\\SQLEXPRESS;Initial Catalog=Quanlydiem;Integrated Security=True";
         // Trả về đối tượng kết nối
         public  SqlConnection Connected()
         {
@@ -68,7 +68,27 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             }
             ngatketnoi();
         }
-
+        public void loadcombobox(ComboBox cb, string strselect, byte chiso)
+        {
+            ketnoi();
+            sqlcom = new SqlCommand(strselect, sqlcon);
+            reader = sqlcom.ExecuteReader();
+            while (reader.Read())
+            {
+                cb.Items.Add(reader[chiso].ToString());
+            }
+            ngatketnoi();
+        }
+        public DataTable loaddatagridview2(string strselect)
+        {
+            DataTable data = new DataTable();
+            ds.Clear();
+            sqlda = new SqlDataAdapter(strselect, strconnect);
+            //sqlda.Fill(ds, "tenbang");
+            sqlda.Fill(data);
+            return data;
+            //dg.DataSource = ds.Tables[0];
+        }
         internal void loadtextbox(TextBox textBoxTimKiem, string v1, int v2)
         {
             throw new NotImplementedException();

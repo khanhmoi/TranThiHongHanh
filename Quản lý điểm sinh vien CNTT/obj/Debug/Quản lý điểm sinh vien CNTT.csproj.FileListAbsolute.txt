@@ -266,3 +266,52 @@ E:\thực tập tốt nghiệp\De Tai Quan Ly Diem Sinh Vien He Dan Su\Programs\
 E:\thực tập tốt nghiệp\De Tai Quan Ly Diem Sinh Vien He Dan Su\Programs\quanlysinhvien\Quản lý điểm sinh vien CNTT\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
 E:\thực tập tốt nghiệp\De Tai Quan Ly Diem Sinh Vien He Dan Su\Programs\quanlysinhvien\Quản lý điểm sinh vien CNTT\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
 E:\thực tập tốt nghiệp\De Tai Quan Ly Diem Sinh Vien He Dan Su\Programs\quanlysinhvien\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.rpDiemTK.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Quản lý điểm sinh vien CNTT.exe.config
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Quản lý điểm sinh vien CNTT.XML
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.exe
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.pdb
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Quản lý điểm sinh vien CNTT.exe
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Quản lý điểm sinh vien CNTT.pdb
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\office.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\stdole.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.ReportViewer.WebForms.xml
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\office.xml
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.csprojResolveAssemblyReference.cache
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmDangNhap.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmDoiMatKhau.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmDSThiLai.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmGiangVien.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmLop.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmKhoa.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmMain.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmMonHoc.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQLDiem.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQLDiemHoclai.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQLDiemThiLai.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQLSV.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQuanLyNguoiDung.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmTimDiemSV.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmTimKiem.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.ReportDSSV.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.ReportDSThilai.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.ReportTongKet.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.rpDiemTK.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.SVThilaivaHoclai.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.Trogiup.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.csproj.GenerateResource.Cache
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmUser.resources

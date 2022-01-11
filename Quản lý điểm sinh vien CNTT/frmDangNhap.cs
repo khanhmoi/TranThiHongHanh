@@ -51,7 +51,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                 cmd.Dispose();
                 reader.Close();
                 reader.Dispose();
-                string select1 = "Select * From tbllogin where TenDN='" + txtTenDN.Text + "' and matkhau='" + txtMatKhau.Text + "' and Quyen='Member'";
+                string select1 = "Select * From tbllogin where TenDN='" + txtTenDN.Text + "' and matkhau='" + txtMatKhau.Text + "' and Quyen='User'";
                 SqlCommand cmd1 = new SqlCommand(select1, conn);
                 SqlDataReader reader1;
                 reader1 = cmd1.ExecuteReader();
@@ -60,25 +60,27 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                 {
                     MessageBox.Show("Đăng nhập vào hệ thống !", "Thông báo !");
 
-                    frmMain frm = new frmMain();
-                    frm.Show();
-                    frm.mnuDN.Enabled = false;
-                    frm.MnuItemDanhMuc.Enabled = false;
-                    frm.mnuItemQuanli.Enabled = false;
+                    //frmMain frm = new frmMain();
+                    //frm.Show();
+                    //frm.mnuDN.Enabled = false;
+                    //frm.MnuItemDanhMuc.Enabled = false;
+                    //frm.mnuItemQuanli.Enabled = false;
                     this.Hide();
 
-                    frm.mnuQuanlinguoidung.Enabled = false;
+                    //frm.mnuQuanlinguoidung.Enabled = false;
 
                     //frm.menuBarToolStripMenuItem.Enabled = false;
                     //frm.menuBarToolStripMenuItem.Checked = true;
-                   
-                    frm.pictureBox2.Hide();
-                    frm.btl1.Hide();
-                    frm.btl2.Hide();
-                    frm.btl3.Hide();
-                    frm.btl4.Hide();
-                    frm.btl5.Hide();
-                    frm.btl6.Hide();
+                    this.Hide();
+                    frmUser user = new frmUser(txtTenDN.Text, txtMatKhau.Text);
+                    user.ShowDialog();
+                    //frm.pictureBox2.Hide();
+                    //frm.btl1.Hide();
+                    //frm.btl2.Hide();
+                    //frm.btl3.Hide();
+                    //frm.btl4.Hide();
+                    //frm.btl5.Hide();
+                    //frm.btl6.Hide();
                     //frm.menuBarToolStripMenuItem.Checked = true;
                     //frm.pictureBox3.Show();
                     //frm.pictureBox2.Show();
