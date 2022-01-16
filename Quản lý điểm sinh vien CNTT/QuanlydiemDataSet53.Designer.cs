@@ -9379,15 +9379,6 @@ SELECT MaSv, HoTen, NgaySinh, GioiTinh, DiaChi, MaLop FROM tblSINH_VIEN WHERE (M
                     allChangedRows.AddRange(updatedRows);
                 }
             }
-            if ((this._tblKET_QUA3TableAdapter != null)) {
-                global::System.Data.DataRow[] updatedRows = dataSet.tblKET_QUA3.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
-                updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
-                            && (0 < updatedRows.Length))) {
-                    result = (result + this._tblKET_QUA3TableAdapter.Update(updatedRows));
-                    allChangedRows.AddRange(updatedRows);
-                }
-            }
             if ((this._tblKET_QUATableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.tblKET_QUA.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
@@ -9403,6 +9394,15 @@ SELECT MaSv, HoTen, NgaySinh, GioiTinh, DiaChi, MaLop FROM tblSINH_VIEN WHERE (M
                 if (((updatedRows != null) 
                             && (0 < updatedRows.Length))) {
                     result = (result + this._tblKET_QUA2TableAdapter.Update(updatedRows));
+                    allChangedRows.AddRange(updatedRows);
+                }
+            }
+            if ((this._tblKET_QUA3TableAdapter != null)) {
+                global::System.Data.DataRow[] updatedRows = dataSet.tblKET_QUA3.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
+                updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
+                if (((updatedRows != null) 
+                            && (0 < updatedRows.Length))) {
+                    result = (result + this._tblKET_QUA3TableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
                 }
             }
@@ -9465,14 +9465,6 @@ SELECT MaSv, HoTen, NgaySinh, GioiTinh, DiaChi, MaLop FROM tblSINH_VIEN WHERE (M
                     allAddedRows.AddRange(addedRows);
                 }
             }
-            if ((this._tblKET_QUA3TableAdapter != null)) {
-                global::System.Data.DataRow[] addedRows = dataSet.tblKET_QUA3.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
-                            && (0 < addedRows.Length))) {
-                    result = (result + this._tblKET_QUA3TableAdapter.Update(addedRows));
-                    allAddedRows.AddRange(addedRows);
-                }
-            }
             if ((this._tblKET_QUATableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.tblKET_QUA.Select(null, null, global::System.Data.DataViewRowState.Added);
                 if (((addedRows != null) 
@@ -9486,6 +9478,14 @@ SELECT MaSv, HoTen, NgaySinh, GioiTinh, DiaChi, MaLop FROM tblSINH_VIEN WHERE (M
                 if (((addedRows != null) 
                             && (0 < addedRows.Length))) {
                     result = (result + this._tblKET_QUA2TableAdapter.Update(addedRows));
+                    allAddedRows.AddRange(addedRows);
+                }
+            }
+            if ((this._tblKET_QUA3TableAdapter != null)) {
+                global::System.Data.DataRow[] addedRows = dataSet.tblKET_QUA3.Select(null, null, global::System.Data.DataViewRowState.Added);
+                if (((addedRows != null) 
+                            && (0 < addedRows.Length))) {
+                    result = (result + this._tblKET_QUA3TableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
                 }
             }
@@ -9515,6 +9515,14 @@ SELECT MaSv, HoTen, NgaySinh, GioiTinh, DiaChi, MaLop FROM tblSINH_VIEN WHERE (M
                     allChangedRows.AddRange(deletedRows);
                 }
             }
+            if ((this._tblKET_QUA3TableAdapter != null)) {
+                global::System.Data.DataRow[] deletedRows = dataSet.tblKET_QUA3.Select(null, null, global::System.Data.DataViewRowState.Deleted);
+                if (((deletedRows != null) 
+                            && (0 < deletedRows.Length))) {
+                    result = (result + this._tblKET_QUA3TableAdapter.Update(deletedRows));
+                    allChangedRows.AddRange(deletedRows);
+                }
+            }
             if ((this._tblKET_QUA2TableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.tblKET_QUA2.Select(null, null, global::System.Data.DataViewRowState.Deleted);
                 if (((deletedRows != null) 
@@ -9528,14 +9536,6 @@ SELECT MaSv, HoTen, NgaySinh, GioiTinh, DiaChi, MaLop FROM tblSINH_VIEN WHERE (M
                 if (((deletedRows != null) 
                             && (0 < deletedRows.Length))) {
                     result = (result + this._tblKET_QUATableAdapter.Update(deletedRows));
-                    allChangedRows.AddRange(deletedRows);
-                }
-            }
-            if ((this._tblKET_QUA3TableAdapter != null)) {
-                global::System.Data.DataRow[] deletedRows = dataSet.tblKET_QUA3.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
-                            && (0 < deletedRows.Length))) {
-                    result = (result + this._tblKET_QUA3TableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
                 }
             }

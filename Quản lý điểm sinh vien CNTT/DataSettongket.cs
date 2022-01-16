@@ -1,7 +1,9 @@
-﻿namespace Quản_lý_điểm_sinh_vien_CNTT {
-    
-    
-    public partial class DataSettongket {
+﻿namespace Quản_lý_điểm_sinh_vien_CNTT
+{
+
+
+    public partial class DataSettongket
+    {
         partial class tblKET_QUADataTable
         {
         }

@@ -520,6 +520,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             Form frmQLSV = new frmQLSV();
             frmQLSV.MdiParent = this;
             //Closeform("frmQLSV");
+            
             frmQLSV.Show();
             frmQLSV.Top = 0;
             frmQLSV.Left = 0;
@@ -541,6 +542,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             Form frmGV = new frmGiangVien();
             frmGV.MdiParent = this;
             //Closeform("frmGiangVien");
+            
             frmGV.Show();
             frmGV.Top = 0;
             frmGV.Left = 0;

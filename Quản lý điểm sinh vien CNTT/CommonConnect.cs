@@ -57,6 +57,14 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         {
             sqlcon.Close();
         }
+        public void thucthiketnoi(string strsql)
+        {
+            ketnoi();
+            sqlcom = new SqlCommand(strsql, sqlcon);
+            sqlcom.ExecuteNonQuery();
+            ngatketnoi();
+
+        }
         public void loadtextbox(TextBox tb, string strselect, byte chiso)
         {
             ketnoi();
@@ -68,6 +76,18 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             }
             ngatketnoi();
         }
+        public void loadtextboxchiso(TextBox cb, string strselect, byte chiso)
+        {
+            ketnoi();
+            sqlcom = new SqlCommand(strselect, sqlcon);
+            reader = sqlcom.ExecuteReader();
+            while (reader.Read())
+            {
+                cb.Text = reader[chiso].ToString();
+            }
+            ngatketnoi();
+        }
+
         public void loadcombobox(ComboBox cb, string strselect, byte chiso)
         {
             ketnoi();
@@ -89,10 +109,10 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             return data;
             //dg.DataSource = ds.Tables[0];
         }
-        internal void loadtextbox(TextBox textBoxTimKiem, string v1, int v2)
-        {
-            throw new NotImplementedException();
-        }
+        //internal void loadtextbox(TextBox textBoxTimKiem, string v1, int v2)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
 

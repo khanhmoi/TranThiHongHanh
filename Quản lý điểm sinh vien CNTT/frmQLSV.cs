@@ -71,7 +71,11 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             string select2 = "Select * From tblSINH_VIEN where Masv='" + txtMaSV.Text + "'";
             SqlCommand cmd2 = new SqlCommand(select2, conn);
             SqlDataReader reader2;
+            //string select3 = "Select * From tblTT_CA_NHAN_SINH_VIEN where Masv='" + txtMaSV.Text + "'";
+            //SqlCommand cmd3 = new SqlCommand(select3, conn);
+            //SqlDataReader reader3;
             reader2 = cmd2.ExecuteReader();
+            //reader3 = cmd3.ExecuteReader();
 
             errorProvider1.Clear();
             if (txtMaSV.Text == "")
@@ -84,7 +88,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             }
             else if (reader2.Read())
             {
-                MessageBox.Show("Bạn đã nhập trùng mã sinh viên ", "Thông báo !",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                MessageBox.Show("Bạn đã nhập trùng mã sinh viên ", "Thông báo !", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtMaSV.Focus();
                 cmd2.Dispose();
                 reader2.Dispose();
@@ -99,13 +103,21 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                                 "Values('" + txtMaSV.Text + "',N'" + txtHoTen.Text + "','" +
                                 mskNgaySinh.Text + "',N'" + cboGioiTinh.Text + "',N'" + txtDiaChi.Text + "','" +
                                 cboMalop.Text + "')";
+                string insert2 = "Insert Into tblTT_CA_NHAN_SINH_VIEN(MaSv,HoTen,NamSinh,NoiSinh,GioiTinh)" +
+                                "Values('" + txtMaSV.Text + "',N'" + txtHoTen.Text + "','" +
+                                mskNgaySinh.Text + "',N'" + txtDiaChi.Text + "',N'" + cboGioiTinh.Text + "')";
                 SqlCommand cmd = new SqlCommand(insert, conn);
+                SqlCommand cmd1 = new SqlCommand(insert2, conn);
+                //SqlDataReader reader1;
+                //reader1 = cmd1.ExecuteReader();
+                cmd1.ExecuteNonQuery();
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Thêm mới thành công", "Thông báo!");
 
                 // Trả tài nguyên
 
                 cmd.Dispose();
+                cmd1.Dispose();
             }
             // Trả tài nguyên
             cmd2.Dispose();
