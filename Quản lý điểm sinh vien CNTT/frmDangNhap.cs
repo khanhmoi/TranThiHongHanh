@@ -127,5 +127,12 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có chắc chắn muốn thoát", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

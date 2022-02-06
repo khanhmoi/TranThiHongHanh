@@ -308,3 +308,5 @@ C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vie
 C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.ReportViewer.WinForms.xml
 C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\stdole.dll
 C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.csprojResolveAssemblyReference.cache
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmHSSV.resources
+C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQLBHYT.resources

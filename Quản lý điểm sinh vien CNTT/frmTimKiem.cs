@@ -67,7 +67,8 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         private void frmTimKiem_Load(object sender, EventArgs e)
         {
             radioButtonMaSV.Checked = true;
-            conn.loaddatagridview(dataGridView1, "select kq.MaSV, kq.HoTen, kq.MaLop, kq.MaMon, kq.DiemTB, kq.DiemTongKet, kq.HanhKiem, kq.HocKi, kq.GhiChu from tblKET_QUA kq");
+            //conn.loaddatagridview(dataGridView1, "select kq.MaSV, kq.HoTen, kq.MaLop, kq.MaMon, kq.DiemTB, kq.DiemTongKet, kq.HanhKiem, kq.HocKi, kq.GhiChu from tblKET_QUA kq");
+            conn.loaddatagridview(dataGridView1, "select * from tblTT_CA_NHAN_SINH_VIEN");
         }
 
         private void textBoxTimKiem_TextChanged(object sender, EventArgs e)
@@ -77,7 +78,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
                 if ((textBoxTimKiem.Text == "") || (textBoxTimKiem.Text == "Nhập vào từ khóa tìm kiếm"))
                 {
-                    conn.loaddatagridview(dataGridView1, "select kq.MaSV, kq.HoTen, kq.MaLop, kq.MaMon, kq.DiemTB, kq.DiemTongKet, kq.HanhKiem, kq.HocKi, kq.GhiChu from tblKET_QUA kq");
+                    conn.loaddatagridview(dataGridView1, "select * from tblTT_CA_NHAN_SINH_VIEN");
                 }
                 else
                 {
@@ -85,17 +86,17 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                     if (i == 1)
                     {
                         conn.loadtextbox(textBoxTimKiem, "select kq.MaSV, kq.HoTen, kq.MaLop, kq.MaMon, kq.DiemTB, kq.DiemTongKet, kq.HanhKiem, kq.HocKi, kq.GhiChu from tblKET_QUA kq where MaSV like N'" + textBoxTimKiem.Text + "%'", 2);
-                        conn.loaddatagridview(dataGridView1, "select kq.MaSV, kq.HoTen, kq.MaLop, kq.MaMon, kq.DiemTB, kq.DiemTongKet, kq.HanhKiem, kq.HocKi, kq.GhiChu from tblKET_QUA kq where MaSV like N'" + textBoxTimKiem.Text + "%'");
+                        conn.loaddatagridview(dataGridView1, "select * from tblTT_CA_NHAN_SINH_VIEN where MaSV like N'" + textBoxTimKiem.Text + "%'");
                     }
                     if (i == 2)
                     {
                         conn.loadtextbox(textBoxTimKiem, "select kq.MaSV, kq.HoTen, kq.MaLop, kq.MaMon, kq.DiemTB, kq.DiemTongKet, kq.HanhKiem, kq.HocKi, kq.GhiChu from tblKET_QUA kq where MaSV like N'" + textBoxTimKiem.Text + "%'", 3);
-                        conn.loaddatagridview(dataGridView1, "select kq.MaSV, kq.HoTen, kq.MaLop, kq.MaMon, kq.DiemTB, kq.DiemTongKet, kq.HanhKiem, kq.HocKi, kq.GhiChu from tblKET_QUA kq where HoTen like N'" + textBoxTimKiem.Text + "%'");
+                        conn.loaddatagridview(dataGridView1, "select * from tblTT_CA_NHAN_SINH_VIEN where HoTen like N'" + textBoxTimKiem.Text + "%'");
                     }
                     if (i == 3)
                     {
                         conn.loadtextbox(textBoxTimKiem, "select kq.MaSV, kq.HoTen, kq.MaLop, kq.MaMon, kq.DiemTB, kq.DiemTongKet, kq.HanhKiem, kq.HocKi, kq.GhiChu from tblKET_QUA kq where MaSV like N'" + textBoxTimKiem.Text + "%'", 8);
-                        conn.loaddatagridview(dataGridView1, "select kq.MaSV, kq.HoTen, kq.MaLop, kq.MaMon, kq.DiemTB, kq.DiemTongKet, kq.HanhKiem, kq.HocKi, kq.GhiChu from tblKET_QUA kq where MaLop like N'" + textBoxTimKiem.Text + "%'");
+                        conn.loaddatagridview(dataGridView1, "select * from tblTT_CA_NHAN_SINH_VIEN where CMTND like N'" + textBoxTimKiem.Text + "%'");
                     }
                 }
             }

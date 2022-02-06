@@ -166,6 +166,7 @@
             this.label3.Size = new System.Drawing.Size(63, 24);
             this.label3.TabIndex = 15;
             this.label3.Text = "Thoát";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // frmDangNhap
             // 

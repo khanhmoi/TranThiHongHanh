@@ -172,6 +172,12 @@
     <Compile Include="frmGiangVien.Designer.cs">
       <DependentUpon>frmGiangVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmHSSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHSSV.Designer.cs">
+      <DependentUpon>frmHSSV.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,6 +201,12 @@
     </Compile>
     <Compile Include="frmMonhoc.Designer.cs">
       <DependentUpon>frmMonhoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLBHYT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLBHYT.Designer.cs">
+      <DependentUpon>frmQLBHYT.cs</DependentUpon>
     </Compile>
     <Compile Include="frmQLDiem.cs">
       <SubType>Form</SubType>
@@ -263,6 +275,9 @@
       <DependentUpon>frmGiangVien.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmHSSV.resx">
+      <DependentUpon>frmHSSV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLop.resx">
       <DependentUpon>frmLop.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -278,6 +293,9 @@
     <EmbeddedResource Include="frmMonhoc.resx">
       <DependentUpon>frmMonhoc.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLBHYT.resx">
+      <DependentUpon>frmQLBHYT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQLDiem.resx">
       <DependentUpon>frmQLDiem.cs</DependentUpon>

@@ -43,6 +43,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             }
             reader.Dispose();
             cmd.Dispose();
+            cc.loadcombobox(cbbGV, "select * from tblGIANG_VIEN",0);
 
         }
 
@@ -76,7 +77,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                 // Thực hiện truy vấn
                 string insert = "Insert Into tblMON(MaMon,TenMon,SoDVHT,MaGV,HocKi,MaKhoa)" +
                 "Values('" + txtMaMon.Text + "',N'" + txtTenMon.Text + "','" + txtSDVHT.Text + "','" +
-                txtMaGV.Text + "','" + txtHocKy.Text + "','" + cboKhoa.Text + "')";
+                cbbGV.Text + "','" + txtHocKy.Text + "','" + cboKhoa.Text + "')";
                 SqlCommand cmd = new SqlCommand(insert, conn);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Nhập thông tin thành công", "Thông báo!");
@@ -118,7 +119,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             txtMaMon.Text = dgrMON.CurrentRow.Cells[0].Value.ToString();
             txtTenMon.Text = dgrMON.CurrentRow.Cells[1].Value.ToString();
             txtSDVHT.Text = dgrMON.CurrentRow.Cells[2].Value.ToString();
-            txtMaGV.Text = dgrMON.CurrentRow.Cells[3].Value.ToString();
+            cbbGV.Text = dgrMON.CurrentRow.Cells[3].Value.ToString();
             txtHocKy.Text = dgrMON.CurrentRow.Cells[4].Value.ToString();
             cboKhoa.Text = dgrMON.CurrentRow.Cells[5].Value.ToString();
         }
@@ -141,7 +142,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         {
             // Thực hiện truy vấn
             string update = "Update tblMON Set TenMon=N'" + txtTenMon.Text + "',SoDVHT='" + 
-                            txtSDVHT.Text + "',MaGV='" + txtMaGV.Text + "',HocKi='" +
+                            txtSDVHT.Text + "',MaGV='" + cbbGV.Text + "',HocKi='" +
                             txtHocKy.Text + "',MaKhoa='" + cboKhoa.Text + "' where MaMon='" + txtMaMon.Text + "' ";
             SqlCommand cmd = new SqlCommand(update, conn);
             cmd.ExecuteNonQuery();
@@ -160,6 +161,11 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         private void cboKhoaHoc_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void cbbGV_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cc.loadtextboxchiso(tbTenGV, "select * from tblGIANG_VIEN where MaGV = '" + cbbGV.Text + "'",1);
         }
     }
 }

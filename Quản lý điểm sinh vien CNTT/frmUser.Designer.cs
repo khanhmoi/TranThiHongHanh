@@ -90,7 +90,6 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridViewTTSV = new System.Windows.Forms.DataGridView();
             this.SVupdatePw = new System.Windows.Forms.Button();
@@ -694,19 +693,9 @@
             this.label30.TabIndex = 16;
             this.label30.Text = "BẢNG ĐIỂM SINH VIÊN";
             // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Location = new System.Drawing.Point(713, 428);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(142, 57);
-            this.btnUpdate.TabIndex = 17;
-            this.btnUpdate.Text = "CẬP NHẬT";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
-            // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(865, 428);
+            this.button2.Location = new System.Drawing.Point(713, 428);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(142, 57);
             this.button2.TabIndex = 18;
@@ -725,7 +714,7 @@
             // 
             // SVupdatePw
             // 
-            this.SVupdatePw.Location = new System.Drawing.Point(1018, 428);
+            this.SVupdatePw.Location = new System.Drawing.Point(866, 428);
             this.SVupdatePw.Name = "SVupdatePw";
             this.SVupdatePw.Size = new System.Drawing.Size(142, 57);
             this.SVupdatePw.TabIndex = 20;
@@ -742,7 +731,6 @@
             this.Controls.Add(this.SVupdatePw);
             this.Controls.Add(this.dataGridViewTTSV);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.label30);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
@@ -838,7 +826,6 @@
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dataGridViewTTSV;
         private System.Windows.Forms.Button SVupdatePw;

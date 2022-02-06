@@ -65,6 +65,8 @@
             this.btnThoat = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnHSSV = new System.Windows.Forms.Button();
+            this.bảoHiểmYTếToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -177,7 +179,8 @@
             this.mnuItemQuanli.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuSV,
             this.mnuGV,
-            this.mnuDiem});
+            this.mnuDiem,
+            this.bảoHiểmYTếToolStripMenuItem});
             this.mnuItemQuanli.Image = global::Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.icons8_manager_40;
             this.mnuItemQuanli.Name = "mnuItemQuanli";
             resources.ApplyResources(this.mnuItemQuanli, "mnuItemQuanli");
@@ -318,11 +321,26 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // btnHSSV
+            // 
+            this.btnHSSV.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnHSSV, "btnHSSV");
+            this.btnHSSV.Name = "btnHSSV";
+            this.btnHSSV.UseVisualStyleBackColor = true;
+            this.btnHSSV.Click += new System.EventHandler(this.btnHSSV_Click);
+            // 
+            // bảoHiểmYTếToolStripMenuItem
+            // 
+            this.bảoHiểmYTếToolStripMenuItem.Name = "bảoHiểmYTếToolStripMenuItem";
+            resources.ApplyResources(this.bảoHiểmYTếToolStripMenuItem, "bảoHiểmYTếToolStripMenuItem");
+            this.bảoHiểmYTếToolStripMenuItem.Click += new System.EventHandler(this.bảoHiểmYTếToolStripMenuItem_Click);
+            // 
             // frmMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Controls.Add(this.btnHSSV);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btl6);
             this.Controls.Add(this.btl4);
@@ -386,6 +404,8 @@
         public System.Windows.Forms.ToolStripMenuItem mnuDoiMK;
         public System.Windows.Forms.ToolStripMenuItem mnuDX;
         public System.Windows.Forms.Button btnThoat;
+        public System.Windows.Forms.Button btnHSSV;
+        private System.Windows.Forms.ToolStripMenuItem bảoHiểmYTếToolStripMenuItem;
     }
 }
 

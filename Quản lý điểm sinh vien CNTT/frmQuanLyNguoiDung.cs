@@ -89,12 +89,14 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
         private void frmQuanLyNguoiDung_Load_1(object sender, EventArgs e)
         {
-           
-            this.tblLOGINTableAdapter.Fill(this.quanlydiemDataSet25.tblLOGIN);
-            conn = cc.Connected();
-            if (conn.State == ConnectionState.Open) ;
-            //Fill du lieu 
-            FillDataGridView_Login();
+
+            //this.tblLOGINTableAdapter.Fill(this.quanlydiemDataSet25.tblLOGIN);
+            //conn = cc.Connected();
+            //if (conn.State == ConnectionState.Open) ;
+            ////Fill du lieu 
+            //FillDataGridView_Login();
+            dgrLogin.DataSource = cc.loaddatagridview2("select * from tblLOGIN");
+
         }
         public void FillDataGridView_Login()
         {

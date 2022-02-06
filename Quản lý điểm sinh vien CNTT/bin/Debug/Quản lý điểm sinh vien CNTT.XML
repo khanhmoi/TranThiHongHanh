@@ -397,6 +397,23 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:Quản_lý_điểm_sinh_vien_CNTT.frmHSSV.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Quản_lý_điểm_sinh_vien_CNTT.frmHSSV.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Quản_lý_điểm_sinh_vien_CNTT.frmHSSV.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:Quản_lý_điểm_sinh_vien_CNTT.frmLop.components">
             <summary>
             Required designer variable.
@@ -460,6 +477,23 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:Quản_lý_điểm_sinh_vien_CNTT.frmMonHoc.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Quản_lý_điểm_sinh_vien_CNTT.frmQLBHYT.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Quản_lý_điểm_sinh_vien_CNTT.frmQLBHYT.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Quản_lý_điểm_sinh_vien_CNTT.frmQLBHYT.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.

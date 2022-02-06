@@ -169,10 +169,10 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             this.radioButtonMaLop.Location = new System.Drawing.Point(684, 83);
             this.radioButtonMaLop.Margin = new System.Windows.Forms.Padding(4);
             this.radioButtonMaLop.Name = "radioButtonMaLop";
-            this.radioButtonMaLop.Size = new System.Drawing.Size(74, 21);
+            this.radioButtonMaLop.Size = new System.Drawing.Size(80, 21);
             this.radioButtonMaLop.TabIndex = 0;
             this.radioButtonMaLop.TabStop = true;
-            this.radioButtonMaLop.Text = "Mã Lớp";
+            this.radioButtonMaLop.Text = "CMTND";
             this.radioButtonMaLop.UseVisualStyleBackColor = true;
             this.radioButtonMaLop.CheckedChanged += new System.EventHandler(this.radioButtonMaLop_CheckedChanged);
             // 

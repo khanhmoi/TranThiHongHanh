@@ -701,6 +701,46 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             }
         }
 
+        private void btnHSSV_Click(object sender, EventArgs e)
+        {
+            Form frm = frmMain.ActiveForm;
+            foreach (Form f in frm.MdiChildren)
+            {
+                if (f.Name == "frmHSSV")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
+            Form frmHSSV = new frmHSSV();
+            frmHSSV.MdiParent = this;
+            //Closeform("frmQLDiem");
+            frmHSSV.Show();
+            frmHSSV.Top = 0;
+            frmHSSV.Left = 0;
+        }
+
+        private void bảoHiểmYTếToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = frmMain.ActiveForm;
+            foreach (Form f in frm.MdiChildren)
+            {
+                if (f.Name == "frmQLBHYT")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
+            Form frmQLBHYT = new frmQLBHYT();
+            frmQLBHYT.MdiParent = this;
+            //Closeform("frmQLDiem");
+            frmQLBHYT.Show();
+            frmQLBHYT.Top = 0;
+            frmQLBHYT.Left = 0;
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 

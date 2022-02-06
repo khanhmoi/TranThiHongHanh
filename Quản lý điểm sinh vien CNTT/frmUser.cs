@@ -26,10 +26,10 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             dataGridView1.DataSource = cc.loaddatagridview2("select * from tblKET_QUA where MaSV = '" + username + "'");
             //cc.loadcombobox(cbbMonHoc, "select * from tblMON", 0);
             tbMaSV.Text = username;
-            cc.loadtextboxchiso(tbHoTenSV, "select * from tblTT_CA_NHAN_SINH_VIEN where MaSv = '" + username + "'",1);
-            cc.loadtextboxchiso(tbNamSinhSV, "select * from tblTT_CA_NHAN_SINH_VIEN where MaSv = '" + username + "'", 2);
-            cc.loadtextboxchiso(tbQueQuanSV, "select * from tblTT_CA_NHAN_SINH_VIEN where MaSv = '" + username + "'", 3);
-            cc.loadtextboxchiso(tbGioiTinhSV, "select * from tblTT_CA_NHAN_SINH_VIEN where MaSv = '" + username + "'", 4);
+            cc.loadtextboxchiso(tbHoTenSV, "select * from tblSINH_VIEN where MaSv = '" + username + "'",1);
+            cc.loadtextboxchiso(tbNamSinhSV, "select * from tblSINH_VIEN where MaSv = '" + username + "'", 2);
+            cc.loadtextboxchiso(tbQueQuanSV, "select * from tblSINH_VIEN where MaSv = '" + username + "'", 4);
+            cc.loadtextboxchiso(tbGioiTinhSV, "select * from tblSINH_VIEN where MaSv = '" + username + "'", 3);
             cc.loadtextboxchiso(tbSDTSV, "select * from tblTT_CA_NHAN_SINH_VIEN where MaSv = '" + username + "'", 5);
             cc.loadtextboxchiso(tbCMTND, "select * from tblTT_CA_NHAN_SINH_VIEN where MaSv = '" + username + "'", 6);
             cc.loadtextboxchiso(tbTP, "select * from tblTT_CA_NHAN_SINH_VIEN where MaSv = '" + username + "'", 7);

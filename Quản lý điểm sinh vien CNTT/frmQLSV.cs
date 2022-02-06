@@ -106,12 +106,16 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                 string insert2 = "Insert Into tblTT_CA_NHAN_SINH_VIEN(MaSv,HoTen,NamSinh,NoiSinh,GioiTinh)" +
                                 "Values('" + txtMaSV.Text + "',N'" + txtHoTen.Text + "','" +
                                 mskNgaySinh.Text + "',N'" + txtDiaChi.Text + "',N'" + cboGioiTinh.Text + "')";
+                string insert3 = "insert into tblLOGIN(TenDN,MatKhau,Quyen)" + "values('" + txtMaSV.Text + "','" + txtMaSV.Text + "','"+label10.Text+"')";
                 SqlCommand cmd = new SqlCommand(insert, conn);
                 SqlCommand cmd1 = new SqlCommand(insert2, conn);
+                SqlCommand cmd3 = new SqlCommand(insert3, conn);
+                
                 //SqlDataReader reader1;
                 //reader1 = cmd1.ExecuteReader();
                 cmd1.ExecuteNonQuery();
                 cmd.ExecuteNonQuery();
+                cmd3.ExecuteNonQuery();
                 MessageBox.Show("Thêm mới thành công", "Thông báo!");
 
                 // Trả tài nguyên
