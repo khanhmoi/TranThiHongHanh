@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tbCMTND = new System.Windows.Forms.TextBox();
             this.tbQueQuanSV = new System.Windows.Forms.TextBox();
@@ -89,11 +88,7 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.dataGridViewTTSV = new System.Windows.Forms.DataGridView();
-            this.SVupdatePw = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -102,15 +97,6 @@
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTTSV)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 717);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1145, 88);
-            this.dataGridView1.TabIndex = 0;
             // 
             // groupBox1
             // 
@@ -683,67 +669,32 @@
             this.label25.TabIndex = 0;
             this.label25.Text = "Họ tên của bố";
             // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.13793F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(12, 656);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(291, 30);
-            this.label30.TabIndex = 16;
-            this.label30.Text = "BẢNG ĐIỂM SINH VIÊN";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(713, 428);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(142, 57);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "THOÁT";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // dataGridViewTTSV
             // 
             this.dataGridViewTTSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewTTSV.Location = new System.Drawing.Point(12, 535);
+            this.dataGridViewTTSV.Location = new System.Drawing.Point(12, 491);
             this.dataGridViewTTSV.Name = "dataGridViewTTSV";
             this.dataGridViewTTSV.RowTemplate.Height = 24;
-            this.dataGridViewTTSV.Size = new System.Drawing.Size(1145, 87);
+            this.dataGridViewTTSV.Size = new System.Drawing.Size(1145, 131);
             this.dataGridViewTTSV.TabIndex = 19;
-            // 
-            // SVupdatePw
-            // 
-            this.SVupdatePw.Location = new System.Drawing.Point(866, 428);
-            this.SVupdatePw.Name = "SVupdatePw";
-            this.SVupdatePw.Size = new System.Drawing.Size(142, 57);
-            this.SVupdatePw.TabIndex = 20;
-            this.SVupdatePw.Text = "ĐỔI MẬT KHẨU";
-            this.SVupdatePw.UseVisualStyleBackColor = true;
-            this.SVupdatePw.Click += new System.EventHandler(this.SVupdatePw_Click);
             // 
             // frmUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1172, 831);
-            this.Controls.Add(this.SVupdatePw);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(1172, 638);
             this.Controls.Add(this.dataGridViewTTSV);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label30);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dataGridView1);
             this.Name = "frmUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "THÔNG TIN ĐIỂM CỦA SINH VIÊN";
+            this.Text = "THÔNG TIN CÁ NHÂN CỦA SINH VIÊN";
             this.Load += new System.EventHandler(this.frmUser_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -758,13 +709,10 @@
             this.groupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTTSV)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -825,9 +773,6 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dataGridViewTTSV;
-        private System.Windows.Forms.Button SVupdatePw;
     }
 }

@@ -71,9 +71,17 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
                     //frm.menuBarToolStripMenuItem.Enabled = false;
                     //frm.menuBarToolStripMenuItem.Checked = true;
-                    this.Hide();
-                    frmUser user = new frmUser(txtTenDN.Text, txtMatKhau.Text);
-                    user.ShowDialog();
+                    //this.Hide();
+
+                    //frmUser user = new frmUser(txtTenDN.Text, txtMatKhau.Text);
+                    //user.Show();
+
+
+                    formUser frmuser = new formUser(txtTenDN.Text, txtMatKhau.Text);
+                    frmuser.Show();
+
+
+
                     //frm.pictureBox2.Hide();
                     //frm.btl1.Hide();
                     //frm.btl2.Hide();

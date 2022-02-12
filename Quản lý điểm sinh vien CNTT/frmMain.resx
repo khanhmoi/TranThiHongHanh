@@ -121,6 +121,44 @@
     <value>215, 3</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1325, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip.Text" xml:space="preserve">
+    <value>MenuStrip</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
+    <value>menuStrip</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="mnuItemHethong.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>ActiveBorder</value>
+  </data>
+  <data name="mnuItemHethong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="mnuItemHethong.Text" xml:space="preserve">
+    <value>&amp;Hệ thống</value>
+  </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>208, 6</value>
   </data>
@@ -166,14 +204,11 @@
   <data name="mnuExit.Text" xml:space="preserve">
     <value>E&amp;xit</value>
   </data>
-  <data name="mnuItemHethong.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>ActiveBorder</value>
+  <data name="MnuItemDanhMuc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 24</value>
   </data>
-  <data name="mnuItemHethong.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 24</value>
-  </data>
-  <data name="mnuItemHethong.Text" xml:space="preserve">
-    <value>&amp;Hệ thống</value>
+  <data name="MnuItemDanhMuc.Text" xml:space="preserve">
+    <value>Danh mục</value>
   </data>
   <data name="mnuMon.Size" type="System.Drawing.Size, System.Drawing">
     <value>141, 26</value>
@@ -193,11 +228,11 @@
   <data name="mnuLop.Text" xml:space="preserve">
     <value>Lớp</value>
   </data>
-  <data name="MnuItemDanhMuc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 24</value>
+  <data name="mnuItemQuanli.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
   </data>
-  <data name="MnuItemDanhMuc.Text" xml:space="preserve">
-    <value>Danh mục</value>
+  <data name="mnuItemQuanli.Text" xml:space="preserve">
+    <value>Quản lí </value>
   </data>
   <data name="mnuSV.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 26</value>
@@ -223,11 +258,11 @@
   <data name="bảoHiểmYTếToolStripMenuItem.Text" xml:space="preserve">
     <value>Bảo hiểm y tế</value>
   </data>
-  <data name="mnuItemQuanli.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 24</value>
+  <data name="mnuItemtimkiem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 24</value>
   </data>
-  <data name="mnuItemQuanli.Text" xml:space="preserve">
-    <value>Quản lí </value>
+  <data name="mnuItemtimkiem.Text" xml:space="preserve">
+    <value>Tìm kiếm</value>
   </data>
   <data name="mnuThongtinSV.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 26</value>
@@ -235,68 +270,9 @@
   <data name="mnuThongtinSV.Text" xml:space="preserve">
     <value>Thông tin của SV</value>
   </data>
-  <data name="mnuItemtimkiem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 24</value>
-  </data>
-  <data name="mnuItemtimkiem.Text" xml:space="preserve">
-    <value>Tìm kiếm</value>
-  </data>
-  <data name="mnuDSSV.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 26</value>
-  </data>
-  <data name="mnuDSSV.Text" xml:space="preserve">
-    <value>Danh sách sinh viên theo lớp</value>
-  </data>
-  <data name="mnuDiemTK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 26</value>
-  </data>
-  <data name="mnuDiemTK.Text" xml:space="preserve">
-    <value>Điểm tổng kết của sinh viên</value>
-  </data>
-  <data name="mnuItemThongKe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 24</value>
-  </data>
-  <data name="mnuItemThongKe.Text" xml:space="preserve">
-    <value>Thống kê </value>
-  </data>
-  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 2, 0, 2</value>
-  </data>
-  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1325, 28</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="menuStrip.Text" xml:space="preserve">
-    <value>MenuStrip</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
-    <value>menuStrip</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>16, 0</value>
   </metadata>
-  <data name="toolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 20</value>
-  </data>
-  <data name="toolStripStatusLabel.Text" xml:space="preserve">
-    <value>Status</value>
-  </data>
   <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 842</value>
   </data>
@@ -322,7 +298,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
+  </data>
+  <data name="toolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="toolStripStatusLabel.Text" xml:space="preserve">
+    <value>Status</value>
   </data>
   <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>124, -1</value>
@@ -355,7 +337,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btl6.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btl4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -385,7 +367,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btl4.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="btl5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -415,7 +397,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btl5.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="btl3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -445,7 +427,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btl3.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="btl2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -475,7 +457,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btl2.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="btl1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -505,7 +487,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btl1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="btnThoat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -535,6 +517,36 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnThoat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnHSSV.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHSSV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 612</value>
+  </data>
+  <data name="btnHSSV.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnHSSV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 70</value>
+  </data>
+  <data name="btnHSSV.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="btnHSSV.Text" xml:space="preserve">
+    <value>Hồ sơ sinh viên</value>
+  </data>
+  <data name="&gt;&gt;btnHSSV.Name" xml:space="preserve">
+    <value>btnHSSV</value>
+  </data>
+  <data name="&gt;&gt;btnHSSV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHSSV.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnHSSV.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
@@ -568,7 +580,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -780,36 +792,36 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
-  <data name="btnHSSV.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnHSSV.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 612</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 690</value>
   </data>
-  <data name="btnHSSV.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="btnHSSV.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>129, 70</value>
   </data>
-  <data name="btnHSSV.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
   </data>
-  <data name="btnHSSV.Text" xml:space="preserve">
-    <value>Hồ sơ sinh viên</value>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Bảo hiểm y tế</value>
   </data>
-  <data name="&gt;&gt;btnHSSV.Name" xml:space="preserve">
-    <value>btnHSSV</value>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
   </data>
-  <data name="&gt;&gt;btnHSSV.Type" xml:space="preserve">
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnHSSV.Parent" xml:space="preserve">
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnHSSV.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -941,6 +953,12 @@
   <data name="&gt;&gt;mnuDiem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;bảoHiểmYTếToolStripMenuItem.Name" xml:space="preserve">
+    <value>bảoHiểmYTếToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bảoHiểmYTếToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;mnuItemtimkiem.Name" xml:space="preserve">
     <value>mnuItemtimkiem</value>
   </data>
@@ -951,24 +969,6 @@
     <value>mnuThongtinSV</value>
   </data>
   <data name="&gt;&gt;mnuThongtinSV.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuItemThongKe.Name" xml:space="preserve">
-    <value>mnuItemThongKe</value>
-  </data>
-  <data name="&gt;&gt;mnuItemThongKe.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuDSSV.Name" xml:space="preserve">
-    <value>mnuDSSV</value>
-  </data>
-  <data name="&gt;&gt;mnuDSSV.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuDiemTK.Name" xml:space="preserve">
-    <value>mnuDiemTK</value>
-  </data>
-  <data name="&gt;&gt;mnuDiemTK.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabel.Name" xml:space="preserve">
@@ -982,12 +982,6 @@
   </data>
   <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bảoHiểmYTếToolStripMenuItem.Name" xml:space="preserve">
-    <value>bảoHiểmYTếToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;bảoHiểmYTếToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmMain</value>

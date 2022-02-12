@@ -33,7 +33,6 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnTim = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnThoat = new System.Windows.Forms.Button();
             this.textBoxTimKiem = new System.Windows.Forms.TextBox();
@@ -73,7 +72,6 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.btnTim);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.btnThoat);
             this.groupBox1.Controls.Add(this.textBoxTimKiem);
@@ -100,25 +98,6 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             this.label1.TabIndex = 6;
             this.label1.Text = "Tìm Kiếm ";
             // 
-            // btnTim
-            // 
-            this.btnTim.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnTim.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnTim.FlatAppearance.BorderSize = 0;
-            this.btnTim.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnTim.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnTim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTim.ForeColor = System.Drawing.Color.Black;
-            this.btnTim.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTim.Location = new System.Drawing.Point(466, 137);
-            this.btnTim.Margin = new System.Windows.Forms.Padding(4);
-            this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(116, 40);
-            this.btnTim.TabIndex = 5;
-            this.btnTim.Text = "Tìm";
-            this.btnTim.UseVisualStyleBackColor = false;
-            this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.timkiem;
@@ -140,7 +119,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThoat.ForeColor = System.Drawing.Color.Black;
             this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThoat.Location = new System.Drawing.Point(590, 137);
+            this.btnThoat.Location = new System.Drawing.Point(514, 137);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(116, 40);
@@ -204,7 +183,6 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // 
             // frmTimKiem
             // 
-            this.AcceptButton = this.btnTim;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1045, 492);
@@ -229,7 +207,6 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnTim;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.TextBox textBoxTimKiem;

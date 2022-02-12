@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dgrHSSV = new System.Windows.Forms.DataGridView();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.tbQueMe = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
@@ -79,6 +78,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbbMaSV = new System.Windows.Forms.ComboBox();
             this.tbCMTND = new System.Windows.Forms.TextBox();
             this.tbQueQuanSV = new System.Windows.Forms.TextBox();
             this.tbGioiTinhSV = new System.Windows.Forms.TextBox();
@@ -92,10 +92,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.label1 = new System.Windows.Forms.Label();
-            this.cbbMaSV = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgrHSSV)).BeginInit();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -115,15 +113,6 @@
             this.dgrHSSV.Size = new System.Drawing.Size(908, 195);
             this.dgrHSSV.TabIndex = 27;
             this.dgrHSSV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgrHSSV_CellContentClick);
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Location = new System.Drawing.Point(710, 413);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(92, 32);
-            this.btnUpdate.TabIndex = 26;
-            this.btnUpdate.Text = "CẬP NHẬT";
-            this.btnUpdate.UseVisualStyleBackColor = true;
             // 
             // groupBox6
             // 
@@ -590,6 +579,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin chính";
             // 
+            // cbbMaSV
+            // 
+            this.cbbMaSV.FormattingEnabled = true;
+            this.cbbMaSV.Location = new System.Drawing.Point(82, 32);
+            this.cbbMaSV.Name = "cbbMaSV";
+            this.cbbMaSV.Size = new System.Drawing.Size(120, 24);
+            this.cbbMaSV.TabIndex = 12;
+            this.cbbMaSV.SelectedIndexChanged += new System.EventHandler(this.cbbMaSV_SelectedIndexChanged);
+            // 
             // tbCMTND
             // 
             this.tbCMTND.Location = new System.Drawing.Point(290, 105);
@@ -686,7 +684,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(710, 453);
+            this.button2.Location = new System.Drawing.Point(749, 416);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 32);
             this.button2.TabIndex = 28;
@@ -696,22 +694,13 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(601, 413);
+            this.btnThem.Location = new System.Drawing.Point(639, 416);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(92, 32);
             this.btnThem.TabIndex = 29;
-            this.btnThem.Text = "THÊM MỚI";
+            this.btnThem.Text = "CẬP NHẬT";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(820, 414);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 32);
-            this.button3.TabIndex = 30;
-            this.button3.Text = "XÓA";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // errorProvider1
             // 
@@ -726,26 +715,15 @@
             this.label1.TabIndex = 31;
             this.label1.Text = "User";
             // 
-            // cbbMaSV
-            // 
-            this.cbbMaSV.FormattingEnabled = true;
-            this.cbbMaSV.Location = new System.Drawing.Point(82, 32);
-            this.cbbMaSV.Name = "cbbMaSV";
-            this.cbbMaSV.Size = new System.Drawing.Size(120, 24);
-            this.cbbMaSV.TabIndex = 12;
-            this.cbbMaSV.SelectedIndexChanged += new System.EventHandler(this.cbbMaSV_SelectedIndexChanged);
-            // 
             // frmHSSV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(932, 707);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dgrHSSV);
-            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
@@ -778,7 +756,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgrHSSV;
-        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.TextBox tbQueMe;
         private System.Windows.Forms.Label label28;
@@ -840,7 +817,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbbMaSV;

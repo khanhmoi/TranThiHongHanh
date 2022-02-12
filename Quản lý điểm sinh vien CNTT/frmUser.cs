@@ -21,9 +21,13 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             this.password = pass;
         }
 
+        public frmUser()
+        {
+        }
+
         private void frmUser_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = cc.loaddatagridview2("select * from tblKET_QUA where MaSV = '" + username + "'");
+            //dataGridView1.DataSource = cc.loaddatagridview2("select * from tblKET_QUA where MaSV = '" + username + "'");
             //cc.loadcombobox(cbbMonHoc, "select * from tblMON", 0);
             tbMaSV.Text = username;
             cc.loadtextboxchiso(tbHoTenSV, "select * from tblSINH_VIEN where MaSv = '" + username + "'",1);

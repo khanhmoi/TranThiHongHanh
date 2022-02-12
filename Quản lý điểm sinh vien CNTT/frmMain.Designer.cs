@@ -48,11 +48,9 @@
             this.mnuSV = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuGV = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuDiem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bảoHiểmYTếToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuItemtimkiem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuThongtinSV = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuItemThongKe = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuDSSV = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuDiemTK = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
@@ -63,10 +61,10 @@
             this.btl2 = new System.Windows.Forms.Button();
             this.btl1 = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.btnHSSV = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnHSSV = new System.Windows.Forms.Button();
-            this.bảoHiểmYTếToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -81,8 +79,7 @@
             this.mnuItemHethong,
             this.MnuItemDanhMuc,
             this.mnuItemQuanli,
-            this.mnuItemtimkiem,
-            this.mnuItemThongKe});
+            this.mnuItemtimkiem});
             resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.Name = "menuStrip";
             // 
@@ -203,6 +200,12 @@
             resources.ApplyResources(this.mnuDiem, "mnuDiem");
             this.mnuDiem.Click += new System.EventHandler(this.mnuDiem_Click);
             // 
+            // bảoHiểmYTếToolStripMenuItem
+            // 
+            this.bảoHiểmYTếToolStripMenuItem.Name = "bảoHiểmYTếToolStripMenuItem";
+            resources.ApplyResources(this.bảoHiểmYTếToolStripMenuItem, "bảoHiểmYTếToolStripMenuItem");
+            this.bảoHiểmYTếToolStripMenuItem.Click += new System.EventHandler(this.bảoHiểmYTếToolStripMenuItem_Click);
+            // 
             // mnuItemtimkiem
             // 
             this.mnuItemtimkiem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -216,27 +219,6 @@
             this.mnuThongtinSV.Name = "mnuThongtinSV";
             resources.ApplyResources(this.mnuThongtinSV, "mnuThongtinSV");
             this.mnuThongtinSV.Click += new System.EventHandler(this.mnuThongtinSV_Click);
-            // 
-            // mnuItemThongKe
-            // 
-            this.mnuItemThongKe.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuDSSV,
-            this.mnuDiemTK});
-            this.mnuItemThongKe.Image = global::Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.icons8_futures_40;
-            this.mnuItemThongKe.Name = "mnuItemThongKe";
-            resources.ApplyResources(this.mnuItemThongKe, "mnuItemThongKe");
-            // 
-            // mnuDSSV
-            // 
-            this.mnuDSSV.Name = "mnuDSSV";
-            resources.ApplyResources(this.mnuDSSV, "mnuDSSV");
-            this.mnuDSSV.Click += new System.EventHandler(this.mnuDSSV_Click);
-            // 
-            // mnuDiemTK
-            // 
-            this.mnuDiemTK.Name = "mnuDiemTK";
-            resources.ApplyResources(this.mnuDiemTK, "mnuDiemTK");
-            this.mnuDiemTK.Click += new System.EventHandler(this.mnuDiemTK_Click);
             // 
             // statusStrip
             // 
@@ -308,6 +290,14 @@
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
+            // btnHSSV
+            // 
+            this.btnHSSV.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnHSSV, "btnHSSV");
+            this.btnHSSV.Name = "btnHSSV";
+            this.btnHSSV.UseVisualStyleBackColor = true;
+            this.btnHSSV.Click += new System.EventHandler(this.btnHSSV_Click);
+            // 
             // pictureBox2
             // 
             resources.ApplyResources(this.pictureBox2, "pictureBox2");
@@ -321,25 +311,20 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // btnHSSV
+            // button1
             // 
-            this.btnHSSV.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.btnHSSV, "btnHSSV");
-            this.btnHSSV.Name = "btnHSSV";
-            this.btnHSSV.UseVisualStyleBackColor = true;
-            this.btnHSSV.Click += new System.EventHandler(this.btnHSSV_Click);
-            // 
-            // bảoHiểmYTếToolStripMenuItem
-            // 
-            this.bảoHiểmYTếToolStripMenuItem.Name = "bảoHiểmYTếToolStripMenuItem";
-            resources.ApplyResources(this.bảoHiểmYTếToolStripMenuItem, "bảoHiểmYTếToolStripMenuItem");
-            this.bảoHiểmYTếToolStripMenuItem.Click += new System.EventHandler(this.bảoHiểmYTếToolStripMenuItem_Click);
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // frmMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnHSSV);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btl6);
@@ -385,7 +370,6 @@
         private System.Windows.Forms.ToolStripMenuItem mnuSV;
         private System.Windows.Forms.ToolStripMenuItem mnuGV;
         private System.Windows.Forms.ToolStripMenuItem mnuDiem;
-        private System.Windows.Forms.ToolStripMenuItem mnuItemThongKe;
         public System.Windows.Forms.ToolStripMenuItem mnuQuanlinguoidung;
         public System.Windows.Forms.Button btl1;
         public System.Windows.Forms.Button btl4;
@@ -395,8 +379,6 @@
         public System.Windows.Forms.Button btl6;
         public System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.ToolStripMenuItem mnuThongtinSV;
-        private System.Windows.Forms.ToolStripMenuItem mnuDSSV;
-        private System.Windows.Forms.ToolStripMenuItem mnuDiemTK;
         public System.Windows.Forms.ToolStripMenuItem MnuItemDanhMuc;
         public System.Windows.Forms.ToolStripMenuItem mnuItemQuanli;
         public System.Windows.Forms.ToolStripMenuItem mnuItemtimkiem;
@@ -406,6 +388,7 @@
         public System.Windows.Forms.Button btnThoat;
         public System.Windows.Forms.Button btnHSSV;
         private System.Windows.Forms.ToolStripMenuItem bảoHiểmYTếToolStripMenuItem;
+        public System.Windows.Forms.Button button1;
     }
 }
 

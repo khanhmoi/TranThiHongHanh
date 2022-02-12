@@ -148,11 +148,29 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DSDiemTK.xsd</DependentUpon>
     </Compile>
+    <Compile Include="formUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUser.Designer.cs">
+      <DependentUpon>formUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBHYT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBHYT.Designer.cs">
+      <DependentUpon>frmBHYT.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDangNhap.designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiemSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiemSV.Designer.cs">
+      <DependentUpon>frmDiemSV.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDoiMatKhau.cs">
       <SubType>Form</SubType>
@@ -259,9 +277,18 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DSSV.rdlc" />
+    <EmbeddedResource Include="formUser.resx">
+      <DependentUpon>formUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBHYT.resx">
+      <DependentUpon>frmBHYT.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiemSV.resx">
+      <DependentUpon>frmDiemSV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDoiMatKhau.resx">
       <DependentUpon>frmDoiMatKhau.cs</DependentUpon>

@@ -176,7 +176,10 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
                 SqlCommand cmd = new SqlCommand("delete from tblSINH_VIEN where MaSv='" + txtMaSV.Text + "'", conn);
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Xóa dữ liệu thành công", "Thông báo!");
+                MessageBox.Show("Xóa thông tin sinh viên thành công", "Thông báo!");
+                SqlCommand cmd5 = new SqlCommand("delete from tblTT_CA_NHAN_SINH_VIEN where MaSv='" + txtMaSV.Text + "'", conn);
+                cmd5.ExecuteNonQuery();
+                MessageBox.Show("Xóa hồ sơ sinh viên thành công", "Thông báo!");
 
                 // Trả tài nguyên
                 cmd.Dispose();

@@ -329,6 +329,40 @@
             Used to sort self-referenced table's rows
             </summary>
         </member>
+        <member name="F:Quản_lý_điểm_sinh_vien_CNTT.formUser.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Quản_lý_điểm_sinh_vien_CNTT.formUser.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Quản_lý_điểm_sinh_vien_CNTT.formUser.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Quản_lý_điểm_sinh_vien_CNTT.frmBHYT.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Quản_lý_điểm_sinh_vien_CNTT.frmBHYT.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Quản_lý_điểm_sinh_vien_CNTT.frmBHYT.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:Quản_lý_điểm_sinh_vien_CNTT.frmDangNhap.components">
             <summary>
             Required designer variable.
@@ -341,6 +375,23 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:Quản_lý_điểm_sinh_vien_CNTT.frmDangNhap.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Quản_lý_điểm_sinh_vien_CNTT.frmDiemSV.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Quản_lý_điểm_sinh_vien_CNTT.frmDiemSV.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Quản_lý_điểm_sinh_vien_CNTT.frmDiemSV.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.

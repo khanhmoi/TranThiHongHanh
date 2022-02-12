@@ -475,7 +475,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             MnuItemDanhMuc.Enabled = false;
             mnuItemQuanli.Enabled = false;
             //mnuWindows.Enabled = false;
-            mnuItemThongKe.Enabled = false;
+            //mnuItemThongKe.Enabled = false;
 
 
             //menuBarToolStripMenuItem.Checked = false;
@@ -722,6 +722,26 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         }
 
         private void bảoHiểmYTếToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = frmMain.ActiveForm;
+            foreach (Form f in frm.MdiChildren)
+            {
+                if (f.Name == "frmQLBHYT")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
+            Form frmQLBHYT = new frmQLBHYT();
+            frmQLBHYT.MdiParent = this;
+            //Closeform("frmQLDiem");
+            frmQLBHYT.Show();
+            frmQLBHYT.Top = 0;
+            frmQLBHYT.Left = 0;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             Form frm = frmMain.ActiveForm;
             foreach (Form f in frm.MdiChildren)
