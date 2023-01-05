@@ -33,7 +33,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             sqlcom.Fill(table);
             dgrMON.DataSource = table;
             
-            string select = "Select MaKhoa from tblKHOA ";
+           /* string select = "Select MaKhoa from tblKHOA ";
             SqlCommand cmd = new SqlCommand(select, conn);
             SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -42,7 +42,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                 cboKhoa.Items.Add(reader.GetString(0));
             }
             reader.Dispose();
-            cmd.Dispose();
+            cmd.Dispose();*/
             cc.loadcombobox(cbbGV, "select * from tblGIANG_VIEN",0);
 
         }
@@ -75,9 +75,9 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                 reader1.Dispose();
                 cmd1.Dispose();
                 // Thực hiện truy vấn
-                string insert = "Insert Into tblMON(MaMon,TenMon,SoDVHT,MaGV,HocKi,MaKhoa)" +
+                string insert = "Insert Into tblMON(MaMon,TenMon,SoDVHT,MaGV,HocKi)" +
                 "Values('" + txtMaMon.Text + "',N'" + txtTenMon.Text + "','" + txtSDVHT.Text + "','" +
-                cbbGV.Text + "','" + txtHocKy.Text + "','" + cboKhoa.Text + "')";
+                cbbGV.Text + "','" + txtHocKy.Text + "')";
                 SqlCommand cmd = new SqlCommand(insert, conn);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Nhập thông tin thành công", "Thông báo!");
@@ -121,7 +121,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             txtSDVHT.Text = dgrMON.CurrentRow.Cells[2].Value.ToString();
             cbbGV.Text = dgrMON.CurrentRow.Cells[3].Value.ToString();
             txtHocKy.Text = dgrMON.CurrentRow.Cells[4].Value.ToString();
-            cboKhoa.Text = dgrMON.CurrentRow.Cells[5].Value.ToString();
+          
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -143,7 +143,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // Thực hiện truy vấn
             string update = "Update tblMON Set TenMon=N'" + txtTenMon.Text + "',SoDVHT='" + 
                             txtSDVHT.Text + "',MaGV='" + cbbGV.Text + "',HocKi='" +
-                            txtHocKy.Text + "',MaKhoa='" + cboKhoa.Text + "' where MaMon='" + txtMaMon.Text + "' ";
+                            txtHocKy.Text + "' where MaMon='" + txtMaMon.Text + "' ";
             SqlCommand cmd = new SqlCommand(update, conn);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Cập nhật dữ liệu thành công", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);

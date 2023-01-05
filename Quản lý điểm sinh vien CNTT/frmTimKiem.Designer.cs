@@ -49,11 +49,9 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.dataGridView1);
-            this.groupBox2.Location = new System.Drawing.Point(45, 227);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Location = new System.Drawing.Point(34, 184);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(949, 251);
+            this.groupBox2.Size = new System.Drawing.Size(712, 204);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             // 
@@ -61,12 +59,12 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(4, 19);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 16);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 50;
-            this.dataGridView1.Size = new System.Drawing.Size(941, 228);
+            this.dataGridView1.Size = new System.Drawing.Size(706, 185);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // groupBox1
             // 
@@ -79,11 +77,9 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             this.groupBox1.Controls.Add(this.radioButtonHvT);
             this.groupBox1.Controls.Add(this.radioButtonMaSV);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(45, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(34, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(949, 204);
+            this.groupBox1.Size = new System.Drawing.Size(712, 166);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tìm kiếm thông tin";
@@ -91,20 +87,18 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(292, 46);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(219, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 17);
+            this.label1.Size = new System.Drawing.Size(59, 15);
             this.label1.TabIndex = 6;
             this.label1.Text = "Tìm Kiếm ";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.timkiem;
-            this.pictureBox1.Location = new System.Drawing.Point(47, 38);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(35, 31);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 139);
+            this.pictureBox1.Size = new System.Drawing.Size(105, 113);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -119,10 +113,9 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThoat.ForeColor = System.Drawing.Color.Black;
             this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThoat.Location = new System.Drawing.Point(514, 137);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThoat.Location = new System.Drawing.Point(386, 111);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(116, 40);
+            this.btnThoat.Size = new System.Drawing.Size(87, 32);
             this.btnThoat.TabIndex = 3;
             this.btnThoat.Text = "Thoát    ";
             this.btnThoat.UseVisualStyleBackColor = false;
@@ -130,13 +123,12 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // 
             // textBoxTimKiem
             // 
-            this.textBoxTimKiem.Location = new System.Drawing.Point(390, 39);
-            this.textBoxTimKiem.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxTimKiem.MaximumSize = new System.Drawing.Size(368, 24);
-            this.textBoxTimKiem.MinimumSize = new System.Drawing.Size(368, 24);
+            this.textBoxTimKiem.Location = new System.Drawing.Point(292, 32);
+            this.textBoxTimKiem.MaximumSize = new System.Drawing.Size(277, 20);
+            this.textBoxTimKiem.MinimumSize = new System.Drawing.Size(277, 20);
             this.textBoxTimKiem.Multiline = true;
             this.textBoxTimKiem.Name = "textBoxTimKiem";
-            this.textBoxTimKiem.Size = new System.Drawing.Size(368, 24);
+            this.textBoxTimKiem.Size = new System.Drawing.Size(277, 20);
             this.textBoxTimKiem.TabIndex = 1;
             this.textBoxTimKiem.Text = "Nhập vào từ khóa tìm kiếm";
             this.textBoxTimKiem.Click += new System.EventHandler(this.textBoxTimKiem_Click);
@@ -145,10 +137,9 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // radioButtonMaLop
             // 
             this.radioButtonMaLop.AutoSize = true;
-            this.radioButtonMaLop.Location = new System.Drawing.Point(684, 83);
-            this.radioButtonMaLop.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButtonMaLop.Location = new System.Drawing.Point(513, 67);
             this.radioButtonMaLop.Name = "radioButtonMaLop";
-            this.radioButtonMaLop.Size = new System.Drawing.Size(80, 21);
+            this.radioButtonMaLop.Size = new System.Drawing.Size(71, 19);
             this.radioButtonMaLop.TabIndex = 0;
             this.radioButtonMaLop.TabStop = true;
             this.radioButtonMaLop.Text = "CMTND";
@@ -158,10 +149,9 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // radioButtonHvT
             // 
             this.radioButtonHvT.AutoSize = true;
-            this.radioButtonHvT.Location = new System.Drawing.Point(546, 83);
-            this.radioButtonHvT.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButtonHvT.Location = new System.Drawing.Point(410, 67);
             this.radioButtonHvT.Name = "radioButtonHvT";
-            this.radioButtonHvT.Size = new System.Drawing.Size(84, 21);
+            this.radioButtonHvT.Size = new System.Drawing.Size(72, 19);
             this.radioButtonHvT.TabIndex = 0;
             this.radioButtonHvT.TabStop = true;
             this.radioButtonHvT.Text = "Họ và tên";
@@ -171,10 +161,9 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // radioButtonMaSV
             // 
             this.radioButtonMaSV.AutoSize = true;
-            this.radioButtonMaSV.Location = new System.Drawing.Point(397, 83);
-            this.radioButtonMaSV.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButtonMaSV.Location = new System.Drawing.Point(298, 67);
             this.radioButtonMaSV.Name = "radioButtonMaSV";
-            this.radioButtonMaSV.Size = new System.Drawing.Size(106, 21);
+            this.radioButtonMaSV.Size = new System.Drawing.Size(90, 19);
             this.radioButtonMaSV.TabIndex = 0;
             this.radioButtonMaSV.TabStop = true;
             this.radioButtonMaSV.Text = "Mã Sinh Viên";
@@ -183,12 +172,13 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             // 
             // frmTimKiem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1045, 492);
+            this.ClientSize = new System.Drawing.Size(784, 400);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmTimKiem";
             this.Text = "frmTimKiem";
             this.Load += new System.EventHandler(this.frmTimKiem_Load);

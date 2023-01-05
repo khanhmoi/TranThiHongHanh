@@ -149,5 +149,10 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         {
             this.Close();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

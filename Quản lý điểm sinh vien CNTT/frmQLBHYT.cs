@@ -19,12 +19,33 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         {
             InitializeComponent();
         }
+        public void FillDataGridView_BHYT()
+        {
+            // Thực hiện truy vấn
+            string select = "Select * From tblBAO_HIEM  ";
+            SqlCommand cmd = new SqlCommand(select, conn);
 
+            // Tạo đối tượng DataSet
+            DataSet ds = new DataSet();
+
+            // Tạo đối tượng điều hợp
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            adapter.SelectCommand = cmd;
+
+            // Fill dữ liệu từ adapter vào DataSet
+            adapter.Fill(ds, "SINHVIEN");
+
+            // Đưa ra DataGridView
+            dataGridView1.DataSource = ds;
+            dataGridView1.DataMember = "SINHVIEN";
+            cmd.Dispose();
+        }
         private void frmQLBHYT_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = cc.loaddatagridview2("select * from tblBAO_HIEM");
             cc.loadcombobox(cbbMaSV, "select * from tblSINH_VIEN", 0);
             conn = cc.Connected();
+            FillDataGridView_BHYT();
         }
 
         private void cbbMaSV_SelectedIndexChanged(object sender, EventArgs e)
@@ -49,19 +70,21 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
 
                 cmd.Dispose();
+                FillDataGridView_BHYT();
             }
             catch (IndexOutOfRangeException ex)
             {
-                MessageBox.Show("Lỗi !"+ex);
+                MessageBox.Show("Lỗi !" + ex);
             }
-            
+
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
             try
             {
-                string update = "Update tblBAO_HIEM Set MBH='"+txtMBH.Text+"',NgayCap='"+txtNgayCap.Text+"',NgayHetHan='"+txtNgayHetHan.Text+"',GhiChu='"+txtGhiChu.Text+"' where MaSv='"+cbbMaSV.Text+"'";
+                string update = "Update tblBAO_HIEM Set MaSv='"+cbbMaSV.Text+"',NgayCap='"+txtNgayCap.Text+"',NgayHetHan='"+txtNgayHetHan.Text+"',GhiChu='"+txtGhiChu.Text+"' where MaBH='"+txtMBH.Text+"'";
                 SqlCommand cmd = new SqlCommand(update, conn);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Sửa thông tin thành công", "Thông báo!");
@@ -71,6 +94,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
 
                 cmd.Dispose();
+                FillDataGridView_BHYT();
             }
             catch (IndexOutOfRangeException ex)
             {
@@ -92,14 +116,16 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             if (MessageBox.Show("Bạn có chắc chắn muốn xóa ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 // Thuc hien xoa du lieu
-                string delete = "delete from tblBAO_HIEM where MaSV='" + cbbMaSV.Text + "'";
+                string delete = "delete from tblBAO_HIEM where MBH='" + txtMBH.Text + "'";
                 SqlCommand cmd = new SqlCommand(delete, conn);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Xóa dữ liệu thành công", "Thông báo!");
 
                 // Trả tài nguyên
                 cmd.Dispose();
+                
                 dataGridView1.DataSource = cc.loaddatagridview2("select * from tblBAO_HIEM");
+                FillDataGridView_BHYT();
             }
         }
     }

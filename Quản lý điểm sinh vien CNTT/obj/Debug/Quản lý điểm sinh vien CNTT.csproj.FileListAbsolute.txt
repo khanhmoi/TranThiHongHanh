@@ -313,3 +313,53 @@ C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vie
 C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.formUser.resources
 C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmBHYT.resources
 C:\Users\cuuco\Desktop\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmDiemSV.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Quản lý điểm sinh vien CNTT.exe.config
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Quản lý điểm sinh vien CNTT.XML
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Quản lý điểm sinh vien CNTT.exe
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Quản lý điểm sinh vien CNTT.pdb
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.ReportViewer.WebForms.xml
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.csproj.AssemblyReference.cache
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.formUser.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmBHYT.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmDangNhap.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmDiemSV.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmDoiMatKhau.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmDSThiLai.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmGiangVien.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmHSSV.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmLop.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmKhoa.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmMain.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmMonHoc.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQLBHYT.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQLDiem.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQLDiemHoclai.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQLDiemThiLai.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQLSV.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmQuanLyNguoiDung.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmTimDiemSV.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmTimKiem.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.frmUser.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.ReportDSSV.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.ReportDSThilai.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.ReportTongKet.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.rpDiemTK.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.SVThilaivaHoclai.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản_lý_điểm_sinh_vien_CNTT.Trogiup.resources
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.csproj.GenerateResource.cache
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.csproj.CoreCompileInputs.cache
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.csproj.CopyComplete
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.exe
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\Quản lý điểm sinh vien CNTT.pdb
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\RdlCompile.cache
+D:\ĐỒ ÁN TỐT NGHIỆP\Trần Thị Hồng Hạnh\QuanLySinhVien-CSharp-Winform\Quản lý điểm sinh vien CNTT\obj\Debug\RdlCompile.compiled

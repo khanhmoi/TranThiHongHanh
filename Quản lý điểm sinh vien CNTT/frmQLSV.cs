@@ -23,19 +23,19 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
         private void frmQLSV_Load(object sender, EventArgs e)
         {
-            conn=cc.Connected();
+            conn = cc.Connected();
             if (conn.State == ConnectionState.Open) ;
             //Add du lieu vao cboKhoa
-            string select = "Select MaKhoa from tblKHOA ";
+            /*string select = "Select MaKhoa from tblKHOA ";
             SqlCommand cmd = new SqlCommand(select, conn);
             SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-                
+
                 cboKhoahoc.Items.Add(reader.GetString(0));
             }
             reader.Dispose();
-            cmd.Dispose();
+            cmd.Dispose();*/
 
 
             //Add du lieu vao MaLop
@@ -103,25 +103,25 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                                 "Values('" + txtMaSV.Text + "',N'" + txtHoTen.Text + "','" +
                                 mskNgaySinh.Text + "',N'" + cboGioiTinh.Text + "',N'" + txtDiaChi.Text + "','" +
                                 cboMalop.Text + "')";
-                string insert2 = "Insert Into tblTT_CA_NHAN_SINH_VIEN(MaSv,HoTen,NamSinh,NoiSinh,GioiTinh)" +
+               /* string insert2 = "Insert Into tblTT_CA_NHAN_SINH_VIEN(MaSv,HoTen,NamSinh,NoiSinh,GioiTinh)" +
                                 "Values('" + txtMaSV.Text + "',N'" + txtHoTen.Text + "','" +
-                                mskNgaySinh.Text + "',N'" + txtDiaChi.Text + "',N'" + cboGioiTinh.Text + "')";
+                                mskNgaySinh.Text + "',N'" + txtDiaChi.Text + "',N'" + cboGioiTinh.Text + "')";*/
                 string insert3 = "insert into tblLOGIN(TenDN,MatKhau,Quyen)" + "values('" + txtMaSV.Text + "','" + txtMaSV.Text + "','"+label10.Text+"')";
                 SqlCommand cmd = new SqlCommand(insert, conn);
-                SqlCommand cmd1 = new SqlCommand(insert2, conn);
+         /*       SqlCommand cmd1 = new SqlCommand(insert2, conn);*/
                 SqlCommand cmd3 = new SqlCommand(insert3, conn);
                 
                 //SqlDataReader reader1;
                 //reader1 = cmd1.ExecuteReader();
-                cmd1.ExecuteNonQuery();
+         /*       cmd1.ExecuteNonQuery();*/
                 cmd.ExecuteNonQuery();
-                cmd3.ExecuteNonQuery();
+/*                cmd3.ExecuteNonQuery();*/
                 MessageBox.Show("Thêm mới thành công", "Thông báo!");
 
                 // Trả tài nguyên
 
                 cmd.Dispose();
-                cmd1.Dispose();
+           /*     cmd1.Dispose();*/
             }
             // Trả tài nguyên
             cmd2.Dispose();
@@ -177,9 +177,9 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                 SqlCommand cmd = new SqlCommand("delete from tblSINH_VIEN where MaSv='" + txtMaSV.Text + "'", conn);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Xóa thông tin sinh viên thành công", "Thông báo!");
-                SqlCommand cmd5 = new SqlCommand("delete from tblTT_CA_NHAN_SINH_VIEN where MaSv='" + txtMaSV.Text + "'", conn);
-                cmd5.ExecuteNonQuery();
-                MessageBox.Show("Xóa hồ sơ sinh viên thành công", "Thông báo!");
+             /*   SqlCommand cmd5 = new SqlCommand("delete from tblTT_CA_NHAN_SINH_VIEN where MaSv='" + txtMaSV.Text + "'", conn);
+                cmd5.ExecuteNonQuery();*/
+               /* MessageBox.Show("Xóa hồ sơ sinh viên thành công", "Thông báo!");*/
 
                 // Trả tài nguyên
                 cmd.Dispose();
@@ -224,7 +224,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
         private void cboKhoahoc_SelectedIndexChanged(object sender, EventArgs e)
         {
-            cboLop.Items.Clear();
+ /*           cboLop.Items.Clear();
             string select = "Select MaLop from tblLOP where MaKhoa='" + cboKhoahoc.Text + "'";
             SqlCommand cmd = new SqlCommand(select, conn);
             SqlDataReader reader = cmd.ExecuteReader();
@@ -236,10 +236,11 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             }
             //Tra tai nguyen 
             reader.Dispose();
-            cmd.Dispose();
+            cmd.Dispose();*/
             
 
         }
+  
 
         private void cboLop_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -270,6 +271,16 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboMalop_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

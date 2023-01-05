@@ -1578,6 +1578,9 @@
     <None Include="Resources\timkiem.JPG" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Screenshot_3.png" />
+    <None Include="Resources\Screenshot_31.png" />
+    <None Include="Resources\tải xuống.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

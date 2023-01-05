@@ -80,5 +80,10 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             this.pnUser.Controls.Add(frmDoiMatKhau);
             frmDoiMatKhau.Show();
         }
+
+        private void pnUser_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

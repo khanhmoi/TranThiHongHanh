@@ -133,17 +133,23 @@
   <data name="toan-canh-truong1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\toan-canh-truong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="timkiem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timkiem.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user_group_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\anh\user_group_new.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\anh\user_password.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Copy of truongdinhi_Attachments_dhbkAutosave_311102092" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Copy of truongdinhi_Attachments_dhbkAutosave_311102092.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="quanlydiemsv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\quanlydiemsv2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="quanlydiemsv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\quanlydiemsv1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="toan-canh-truong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toan-canh-truong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="happy-new-year-2017-71" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\happy-new-year-2017-7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,11 +157,14 @@
   <data name="icons8-manager-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-manager-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Screenshot_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-system-task-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-system-task-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="toan-canh-truong" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\toan-canh-truong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="quanlydiemsv2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quanlydiemsv2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1735096137-1-ts12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1735096137-1-ts12.jpeg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,10 +181,10 @@
   <data name="icons8-choice-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-choice-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user_password" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\anh\user_password.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="quanlydiemsv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quanlydiemsv1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="timkiem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\timkiem.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tải xuống" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tải xuống.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -39,7 +39,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             dgrLop.DataSource = table;
 
             //Add du lieu vao cboKhoaHoc
-            string select = "Select MaKhoa from tblKHOA ";
+    /*        string select = "Select MaKhoa from tblKHOA ";
             SqlCommand cmd = new SqlCommand(select, conn);
             SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -48,7 +48,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                cboKhoa.Items.Add(reader.GetString(0));
             }
             reader.Dispose();
-            cmd.Dispose();
+            cmd.Dispose();*/
 
 
             //Load lai du lieu
@@ -58,30 +58,32 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string select1 = "Select MaKhoa from tblKHOA where MaKhoa='" + cboKhoa.Text + "' ";
+            /*string select1 = "Select MaLop from tblLOP where MaLop='" + txtMaLop.Text + "' ";
             SqlCommand cmd1 = new SqlCommand(select1, conn);
             SqlDataReader reader1 = cmd1.ExecuteReader();
-            errorProvider1.Clear();
+            errorProvider1.Clear();*/
             if (txtMaLop.Text == "")
             {
                 errorProvider1.SetError(txtMaLop, "!");
+                MessageBox.Show("Mã lớp không được để trống !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtMaLop.Focus();
             }
-            else if (txtMaLop.Text == dgrLop.CurrentRow.Cells[1].Value.ToString())
+            else if (txtMaLop.Text == dgrLop.CurrentRow.Cells[0].Value.ToString())
             {
                 errorProvider1.SetError(txtMaLop, "!");
                 MessageBox.Show("Mã lớp đã tồn tại !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                 txtMaLop.Focus();
             }
-            else if (reader1.Read())
+            /*else if (reader1.Read())*/ 
+                else
             {
 
-                reader1.Dispose();
-                cmd1.Dispose();
+              /*  reader1.Dispose();
+                cmd1.Dispose();*/
                 // Thực hiện truy vấn
-                string insert = "Insert Into tblLOP(MaLop,TenLop,Makhoa)" +
-                "Values('" + txtMaLop.Text + "',N'" + txtTenlop.Text + "','" + cboKhoa.Text + "')";
+                string insert = "Insert Into tblLOP(MaLop,TenLop)" +
+                "Values('" + txtMaLop.Text + "',N'" + txtTenlop.Text + "')";
                 SqlCommand cmd = new SqlCommand(insert, conn);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Nhập thông tin thành công", "Thông báo!");
@@ -94,15 +96,15 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                 FillDataGridView_Lop();
 
             }
-            else
+       /*     else
             {
                     MessageBox.Show("Nhập mã khoa không chính xác !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     cboKhoa.Focus();
                     reader1.Dispose();
                     cmd1.Dispose();
-            }
-            reader1.Dispose();
-            cmd1.Dispose();
+            }*/
+           /* reader1.Dispose();
+            cmd1.Dispose();*/
         }
         public void FillDataGridView_Lop()
         {
@@ -128,9 +130,9 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
         private void dgrLop_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            cboKhoa.Text = dgrLop.CurrentRow.Cells[0].Value.ToString();
-            txtMaLop.Text = dgrLop.CurrentRow.Cells[1].Value.ToString();
-            txtTenlop.Text = dgrLop.CurrentRow.Cells[2].Value.ToString();
+     /*       cboKhoa.Text = dgrLop.CurrentRow.Cells[0].Value.ToString();*/
+            txtMaLop.Text = dgrLop.CurrentRow.Cells[0].Value.ToString();
+            txtTenlop.Text = dgrLop.CurrentRow.Cells[1].Value.ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -181,7 +183,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         private void button2_Click(object sender, EventArgs e)
         {
             // Thực hiện truy vấn
-            string update = "Update tblLOP Set MaKhoa='" + cboKhoa.Text + "',MaLop='" + txtMaLop.Text + "',TenLop='" +
+            string update = "Update tblLOP Set MaLop='" + txtMaLop.Text + "',TenLop='" +
                             txtTenlop.Text + "' where MaLop='" + txtMaLop.Text + "' ";
             SqlCommand cmd = new SqlCommand(update, conn);
             cmd.ExecuteNonQuery();

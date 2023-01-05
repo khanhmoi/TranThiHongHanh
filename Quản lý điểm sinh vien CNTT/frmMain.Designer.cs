@@ -42,7 +42,6 @@
             this.mnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuItemDanhMuc = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuMon = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuKhoa = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuLop = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuItemQuanli = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSV = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,7 +54,6 @@
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.btl6 = new System.Windows.Forms.Button();
-            this.btl4 = new System.Windows.Forms.Button();
             this.btl5 = new System.Windows.Forms.Button();
             this.btl3 = new System.Windows.Forms.Button();
             this.btl2 = new System.Windows.Forms.Button();
@@ -147,7 +145,6 @@
             // 
             this.MnuItemDanhMuc.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuMon,
-            this.mnuKhoa,
             this.mnuLop});
             this.MnuItemDanhMuc.Image = global::Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.icons8_choice_40;
             this.MnuItemDanhMuc.Name = "MnuItemDanhMuc";
@@ -158,12 +155,6 @@
             this.mnuMon.Name = "mnuMon";
             resources.ApplyResources(this.mnuMon, "mnuMon");
             this.mnuMon.Click += new System.EventHandler(this.mnuMon_Click);
-            // 
-            // mnuKhoa
-            // 
-            this.mnuKhoa.Name = "mnuKhoa";
-            resources.ApplyResources(this.mnuKhoa, "mnuKhoa");
-            this.mnuKhoa.Click += new System.EventHandler(this.mnuKhoa_Click);
             // 
             // mnuLop
             // 
@@ -240,14 +231,6 @@
             this.btl6.Name = "btl6";
             this.btl6.UseVisualStyleBackColor = true;
             this.btl6.Click += new System.EventHandler(this.btl6_Click_1);
-            // 
-            // btl4
-            // 
-            this.btl4.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.btl4, "btl4");
-            this.btl4.Name = "btl4";
-            this.btl4.UseVisualStyleBackColor = true;
-            this.btl4.Click += new System.EventHandler(this.btl4_Click);
             // 
             // btl5
             // 
@@ -328,7 +311,6 @@
             this.Controls.Add(this.btnHSSV);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btl6);
-            this.Controls.Add(this.btl4);
             this.Controls.Add(this.btl5);
             this.Controls.Add(this.btl3);
             this.Controls.Add(this.btl2);
@@ -365,14 +347,12 @@
         private System.Windows.Forms.ToolStripMenuItem mnuMon;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ToolStripMenuItem mnuKhoa;
         private System.Windows.Forms.ToolStripMenuItem mnuLop;
         private System.Windows.Forms.ToolStripMenuItem mnuSV;
         private System.Windows.Forms.ToolStripMenuItem mnuGV;
         private System.Windows.Forms.ToolStripMenuItem mnuDiem;
         public System.Windows.Forms.ToolStripMenuItem mnuQuanlinguoidung;
         public System.Windows.Forms.Button btl1;
-        public System.Windows.Forms.Button btl4;
         public System.Windows.Forms.Button btl5;
         public System.Windows.Forms.Button btl3;
         public System.Windows.Forms.Button btl2;

@@ -164,7 +164,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             btl1.Hide();
             btl2.Hide();
             btl3.Hide();
-            btl4.Hide();
+/*            btl4.Hide();*/
             btl5.Hide();
             btl6.Hide();
         }
@@ -484,7 +484,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             btl1.Hide();
             btl2.Hide();
             btl3.Hide();
-            btl4.Hide();
+/*            btl4.Hide();*/
             btl5.Hide();
             btl6.Hide();
 
@@ -688,7 +688,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             btl1.Hide();
             btl2.Hide();
             btl3.Hide();
-            btl4.Hide();
+ /*           btl4.Hide();*/
             btl5.Hide();
             btl6.Hide();
         }

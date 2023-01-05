@@ -29,13 +29,14 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
         SqlDataAdapter sqlda;
         SqlCommand sqlcom;
         SqlConnection sqlcon;
-        string strconnect = "Data Source=TIEUBACHDUONG\\SQLEXPRESS;Initial Catalog=Quanlydiem;Integrated Security=True";
+        string strconnect = "Data Source=DESKTOP-O838L80\\HANGOCKHANH;Initial Catalog=Quanlydiem;Integrated Security=True";
         // Trả về đối tượng kết nối
         public  SqlConnection Connected()
         {
             string conect = SystemInformation.UserDomainName.ToString();
 
-            string source = "Data Source="+ conect +"\\SQLEXPRESS;Initial Catalog=QuanLyDiem;Integrated Security=True";       
+     //       string source = "Data Source="+ conect +"\\SQLEXPRESS;Initial Catalog=QuanLyDiem;Integrated Security=True";
+            string source = "Data Source=DESKTOP-O838L80\\HANGOCKHANH;Initial Catalog=Quanlydiem;Integrated Security=True";
             conn = new SqlConnection(source);
             conn.Open();            
             return conn;   
@@ -104,8 +105,8 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             DataTable data = new DataTable();
             ds.Clear();
             sqlda = new SqlDataAdapter(strselect, strconnect);
-            //sqlda.Fill(ds, "tenbang");
-            sqlda.Fill(data);
+           // sqlda.Fill(ds, "tenbang");
+           // sqlda.Fill(data);
             return data;
             //dg.DataSource = ds.Tables[0];
         }

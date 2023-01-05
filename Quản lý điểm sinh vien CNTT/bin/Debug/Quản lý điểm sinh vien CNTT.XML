@@ -782,6 +782,21 @@
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
+        <member name="P:Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.Screenshot_3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.Screenshot_31">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.tải_xuống">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
         <member name="P:Quản_lý_điểm_sinh_vien_CNTT.Properties.Resources.timkiem">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.

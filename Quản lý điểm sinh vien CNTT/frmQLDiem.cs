@@ -33,7 +33,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
 
         private void cboKhoaHoc_SelectedIndexChanged(object sender, EventArgs e)
         {
-            cboLop.Items.Clear();
+      /*      cboLop.Items.Clear();
             cboLop.Text = "";
             string select = "Select MaLop from tblLOP where  MaKhoa='" + cboKhoaHoc.Text + "'";
             SqlCommand cmd = new SqlCommand(select, conn);
@@ -46,7 +46,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             }
             //Tra tai nguyen 
             reader.Dispose();
-            cmd.Dispose();
+            cmd.Dispose();*/
         }
 
         private void frmQLDiem_Load(object sender, EventArgs e)
@@ -62,7 +62,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
             dgrDiem.DataSource = table;
 
             //Add du lieu vao cboKhoaHoc
-            string select = "Select MaKhoa from tblKHOA ";
+        /*    string select = "Select MaKhoa from tblKHOA ";
             SqlCommand cmd = new SqlCommand(select, conn);
             SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -71,7 +71,7 @@ namespace Quản_lý_điểm_sinh_vien_CNTT
                 cboKhoaHoc.Items.Add(reader.GetString(0));
             }
             reader.Dispose();
-            cmd.Dispose();
+            cmd.Dispose();*/
 
 
             //Load lai du lieu

@@ -32,14 +32,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLop));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dgrLop = new System.Windows.Forms.DataGridView();
-            this.maKhoaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maLopDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenLopDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tblLOPBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.quanlydiemDataSet37 = new Quản_lý_điểm_sinh_vien_CNTT.QuanlydiemDataSet37();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cboKhoa = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.txtMaLop = new System.Windows.Forms.TextBox();
             this.txtTenlop = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -51,6 +46,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.tblLOPTableAdapter = new Quản_lý_điểm_sinh_vien_CNTT.QuanlydiemDataSet37TableAdapters.tblLOPTableAdapter();
+            this.maLopDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenLopDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgrLop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblLOPBindingSource)).BeginInit();
@@ -76,33 +73,14 @@
             this.dgrLop.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dgrLop.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgrLop.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.maKhoaDataGridViewTextBoxColumn,
             this.maLopDataGridViewTextBoxColumn,
             this.tenLopDataGridViewTextBoxColumn});
             this.dgrLop.DataSource = this.tblLOPBindingSource;
             this.dgrLop.Location = new System.Drawing.Point(6, 18);
             this.dgrLop.Name = "dgrLop";
-            this.dgrLop.Size = new System.Drawing.Size(381, 388);
+            this.dgrLop.Size = new System.Drawing.Size(344, 388);
             this.dgrLop.TabIndex = 0;
             this.dgrLop.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgrLop_CellContentClick);
-            // 
-            // maKhoaDataGridViewTextBoxColumn
-            // 
-            this.maKhoaDataGridViewTextBoxColumn.DataPropertyName = "MaKhoa";
-            this.maKhoaDataGridViewTextBoxColumn.HeaderText = "MaKhoa";
-            this.maKhoaDataGridViewTextBoxColumn.Name = "maKhoaDataGridViewTextBoxColumn";
-            // 
-            // maLopDataGridViewTextBoxColumn
-            // 
-            this.maLopDataGridViewTextBoxColumn.DataPropertyName = "MaLop";
-            this.maLopDataGridViewTextBoxColumn.HeaderText = "MaLop";
-            this.maLopDataGridViewTextBoxColumn.Name = "maLopDataGridViewTextBoxColumn";
-            // 
-            // tenLopDataGridViewTextBoxColumn
-            // 
-            this.tenLopDataGridViewTextBoxColumn.DataPropertyName = "TenLop";
-            this.tenLopDataGridViewTextBoxColumn.HeaderText = "TenLop";
-            this.tenLopDataGridViewTextBoxColumn.Name = "tenLopDataGridViewTextBoxColumn";
             // 
             // tblLOPBindingSource
             // 
@@ -116,8 +94,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.cboKhoa);
-            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtMaLop);
             this.groupBox1.Controls.Add(this.txtTenlop);
             this.groupBox1.Controls.Add(this.label4);
@@ -129,24 +105,6 @@
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lựa chọn";
-            // 
-            // cboKhoa
-            // 
-            this.cboKhoa.FormattingEnabled = true;
-            this.cboKhoa.Location = new System.Drawing.Point(128, 139);
-            this.cboKhoa.Name = "cboKhoa";
-            this.cboKhoa.Size = new System.Drawing.Size(208, 23);
-            this.cboKhoa.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(37, 147);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 15);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Mã Khoa";
             // 
             // txtMaLop
             // 
@@ -257,6 +215,19 @@
             // 
             this.tblLOPTableAdapter.ClearBeforeFill = true;
             // 
+            // maLopDataGridViewTextBoxColumn
+            // 
+            this.maLopDataGridViewTextBoxColumn.DataPropertyName = "MaLop";
+            this.maLopDataGridViewTextBoxColumn.HeaderText = "MaLop";
+            this.maLopDataGridViewTextBoxColumn.Name = "maLopDataGridViewTextBoxColumn";
+            // 
+            // tenLopDataGridViewTextBoxColumn
+            // 
+            this.tenLopDataGridViewTextBoxColumn.DataPropertyName = "TenLop";
+            this.tenLopDataGridViewTextBoxColumn.HeaderText = "TenLop";
+            this.tenLopDataGridViewTextBoxColumn.Name = "tenLopDataGridViewTextBoxColumn";
+            this.tenLopDataGridViewTextBoxColumn.Width = 200;
+            // 
             // frmLop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -298,15 +269,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.DataGridView dgrLop;
         private QuanlydiemDataSet37 quanlydiemDataSet37;
         private System.Windows.Forms.BindingSource tblLOPBindingSource;
         private Quản_lý_điểm_sinh_vien_CNTT.QuanlydiemDataSet37TableAdapters.tblLOPTableAdapter tblLOPTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn maKhoaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn maLopDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenLopDataGridViewTextBoxColumn;
-        private System.Windows.Forms.ComboBox cboKhoa;
     }
 }
